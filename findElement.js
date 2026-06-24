@@ -9,14 +9,16 @@
 function findElement(array = [],element = 0 || ''){
     let result = [];
     let index = 0;
+    let rowResult = [];
 
     for(let i=0;i<array.length;i++){
         if(array[i] === element){
             result[index] = array[i];
+            rowResult[index] = i+1;
             index++;
-            console.log(element+" se trouve dans "+(i+1)+" colonne du tableau");
         }
     }
+    console.log(element+" se trouve dans "+rowResult+" colonne du tableau");
 
 }
 
