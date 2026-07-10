@@ -1,8 +1,8 @@
 /**
  * @method ArrayDoublon
  *
- * input : ['M','L','F','M','M','F','M','A','F','M'','M','A','M,'B','M','F','R'];
- * output : [M,L,F,A,B,R]
+ * input : ["M","L","S","M","R","K","R","O","S"];
+ * output : [ 'M', 'R', 'S' ]
  * @param {*} array
  */
 
